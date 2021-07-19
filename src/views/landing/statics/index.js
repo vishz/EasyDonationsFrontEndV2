@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Col, Row} from "reactstrap";
 import './style.scss';
 import axiosPublic from "../../../axios/axios_public";
+import axios from 'axios'
 
 let LANDING_PAGE_STATICS_API = `landingPage/statistics`;
 
@@ -14,23 +15,42 @@ class App extends Component {
         close: 0
     };
 
-    componentDidMount() {
-        axiosPublic.get(LANDING_PAGE_STATICS_API)
-            .then(response => {
-                if (response.data.success) {
-                    this.setState({
-                        list: response.data.body,
-                        donors: response.data.donors,
-                        hospitals: response.data.hospitals,
-                        donation: response.data.donation,
-                        open: response.data.open,
-                        close: response.data.close
-                    })
-                }
-            })
-            .catch(err => {
+    async componentDidMount() {
 
+        const response = await axios.post('http://localhost:8090/api/easyDonations/landingPage/statistics')
+        console.log(response.data)
+        if(response && response.data){
+            this.setState({
+                // list: response.data.body,
+                donors:  response.data.body.noOfDonors,
+                hospitals: response.data.body.noOfHospitals,
+                donation: response.data.body.noOfDonations,
+                open:  response.data.body.noOfOpenRequirements,
+                close: response.data.body.noOfCloseRequirements
             })
+        }
+        
+                        console.log(this.state)
+        
+        // axiosPublic.post('http://localhost:8090/api/easyDonations/landingPage/statistics')
+        //     .then(response => {
+        //         console.log(response)
+        //         if (response.data.success) {
+            
+        //             this.setState({
+        //                 list: response.data.body,
+        //                 donors: response.data.body.noOfDonors,
+        //                 hospitals: response.data.body.noOfHospitals,
+        //                 donation: response.data.body.noOfDonations,
+        //                 open: response.body.data.noOfOpenRequirements,
+        //                 close: response.body.data.noOfCloseRequirements
+        //             })
+        //             console.log(this.state)
+        //         }
+        //     })
+        //     .catch(err => {
+
+        //     })
     }
 
     render() {
