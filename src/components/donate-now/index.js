@@ -12,6 +12,9 @@ class App extends Component{
                 <Modal isOpen={modal} toggle={()=>{}} className={""}>
                     <ModalHeader toggle={()=>this.props.closeHandler()}>Donate Now</ModalHeader>
                     <ModalBody>
+                        <label>User name:</label>
+                        <input placeholder={"XXXX"} className={"donate-input"}/><br/>
+
                         <label>Bank Name:</label>
                         <input placeholder={"BOC"} className={"donate-input"}/><br/>
 

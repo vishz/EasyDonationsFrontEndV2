@@ -15,7 +15,7 @@ class App extends Component {
                 <Col sm={6} md={4}  >
                     <div className={"card"}>
                         <div className={"user"}>
-                            <img src={"https://lh3.googleusercontent.com/proxy/Yxg8vACGY7llWP49yWR-uFgG4CzvCvasFRcIDiNZG4YFHcxvMaho7juKFJGbKrJn1f2I8UwNGdab4qictZvCpL7Rnb-ZruIOywHqmq3p0DX5XNN7RQ"} alt={"user"} />
+                            <img src={"https://fortify-asia.com/static/media/image_1.39a73962.png"} alt={"user"} />
                         </div>
                         <p className={"head-font"}>Alex</p>
                         <p className={"sub-font"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -27,7 +27,7 @@ class App extends Component {
                 <Col sm={6} md={4}>
                     <div className={"card"}>
                         <div className={"user"}>
-                            <img src={"https://lh3.googleusercontent.com/proxy/Yxg8vACGY7llWP49yWR-uFgG4CzvCvasFRcIDiNZG4YFHcxvMaho7juKFJGbKrJn1f2I8UwNGdab4qictZvCpL7Rnb-ZruIOywHqmq3p0DX5XNN7RQ"} alt={"user"} />
+                            <img src={"https://fortify-asia.com/static/media/image_4.492d8d39.png"} alt={"user"} />
                         </div>
                         <p className={"head-font"}>Jhon</p>
                         <p className={"sub-font"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -39,7 +39,7 @@ class App extends Component {
                 <Col sm={6} md={4}>
                     <div className={"card"}>
                         <div className={"user"}>
-                            <img src={"https://lh3.googleusercontent.com/proxy/Yxg8vACGY7llWP49yWR-uFgG4CzvCvasFRcIDiNZG4YFHcxvMaho7juKFJGbKrJn1f2I8UwNGdab4qictZvCpL7Rnb-ZruIOywHqmq3p0DX5XNN7RQ"} alt={"user"} />
+                            <img src={"https://fortify-asia.com/static/media/boy-3.502e74bd.jpg"} alt={"user"} />
                         </div>
                         <p className={"head-font"}>James</p>
                         <p className={"sub-font"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
