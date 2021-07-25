@@ -15,37 +15,37 @@ class App extends Component {
                 <Col sm={6} md={4}  >
                     <div className={"card"}>
                         <div className={"user"}>
-                            <img src={"https://fortify-asia.com/static/media/image_1.39a73962.png"} alt={"user"} />
+                            <img src={"https://media-exp1.licdn.com/dms/image/C4E03AQGkJgrlHlOPaQ/profile-displayphoto-shrink_200_200/0/1586243318150?e=1632960000&v=beta&t=7QpXOZeGnle2HQ0CKnGQHN5hENduJyvcj_RFOjHyOgA"} alt={"user"} />
                         </div>
-                        <p className={"head-font"}>Alex</p>
-                        <p className={"sub-font"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                            but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <p className={"head-font"}>Kavishi</p>
+                        <p className={"sub-font"}>This is a very useful platform to do donations very easily
+                        This website helps to save our time and get to know the exact requiremnts in hospitals.
+                        Since the Donation process is becoming more easy and convinient at the sametime more trustworthy, we are persuaded to do
+                        more and more donations.Thank you Easy Donations</p>
                     </div>
                 </Col>
                 <Col sm={6} md={4}>
                     <div className={"card"}>
                         <div className={"user"}>
-                            <img src={"https://fortify-asia.com/static/media/image_4.492d8d39.png"} alt={"user"} />
+                            <img src={"https://avatars.githubusercontent.com/u/51959423?v=4"} alt={"user"} />
                         </div>
-                        <p className={"head-font"}>Jhon</p>
-                        <p className={"sub-font"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                            but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <p className={"head-font"}>Pathumi</p>
+                        <p className={"sub-font"}>Thank you Easy Donations.This is a very useful platform to do donations very easily
+                        This website helps to save our time and get to know the exact requiremnts in hospitals.
+                        Since the Donation process is becoming more easy and convinient at the sametime more trustworthy, we are persuaded to do
+                        more and more donations.</p>
                     </div>
                 </Col>
                 <Col sm={6} md={4}>
                     <div className={"card"}>
                         <div className={"user"}>
-                            <img src={"https://fortify-asia.com/static/media/boy-3.502e74bd.jpg"} alt={"user"} />
+                            <img src={"https://d3p2qewzsoh75c.cloudfront.net/uploads/speakers/200/4bf5423639118fe9335b7050c592a916.jpg"} alt={"user"} />
                         </div>
-                        <p className={"head-font"}>James</p>
-                        <p className={"sub-font"}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                            but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <p className={"head-font"}>Perera</p>
+                        <p className={"sub-font"}>Since the Donation process is becoming more easy and convinient at the sametime more trustworthy, we are persuaded to do
+                        more and more donations.Thank you Easy Donations.This is a very useful platform to do donations very easily
+                        This website helps to save our time and get to know the exact requiremnts in hospitals.
+                        </p>
                     </div>
                 </Col>
             </Row>
