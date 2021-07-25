@@ -20,7 +20,7 @@ class App extends Component{
                             )
                         )
                     })
-                    }
+                    
                     <Redirect to={config.BASE_ROUTE}/>
                 </Switch>
             </BrowserRouter>

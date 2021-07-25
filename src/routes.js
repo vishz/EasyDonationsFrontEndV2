@@ -4,6 +4,7 @@ import SignUpPage from './views/sign-up';
 import ContactUsPage from './views/contact-us';
 import DonationRequirments from './views/donation-requirments';
 import * as config from "./const/config";
+import Signup from './views/signUpTest/signUp';
 
 const routes = [
     {
@@ -30,7 +31,14 @@ const routes = [
         path:"sign-up",
         render: SignUpPage,
         layout: config.BASE_ROUTE
+    },
+
+    {
+        path:"sign-up-test",
+        render: Signup,
+        layout: config.BASE_ROUTE
     }
+
 ];
 
 export default routes;

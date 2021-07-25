@@ -92,16 +92,17 @@ const [password2, setPassword2] = useState('')
     //       'Content-Type': 'application/json',
     //     },
     //   };
-      console.log(formData)
-      const res = await fetch('http://localhost:8090/api/easyDonations/signUp', {
-		method: 'POST',
-		headers: {
-			Accept: 'application/json',
-			'Content-Type': 'application/json',
-		},
-		body: formData,
-	});
-    // const res = await axios.post(`http://localhost:8090/api/easyDonations/signUp`, formData, config);
+      // console.log(formData)
+      console.log("haii")
+  //     const res = await fetch('http://localhost:8090/api/easyDonations/signUp', {
+	// 	method: 'POST',
+	// 	headers: {
+	// 		Accept: 'application/json',
+	// 		'Content-Type': 'application/json',
+	// 	},
+	// 	body: formData,
+	// });
+    const res = await axios.post(`signUp`, formData);
     console.log(res)
 }
 
@@ -257,7 +258,7 @@ const [password2, setPassword2] = useState('')
           </Button>
           <Grid container justifyContent="flex-end">
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link href="/login" variant="body2">
                 Already have an account? Sign in
               </Link>
             </Grid>

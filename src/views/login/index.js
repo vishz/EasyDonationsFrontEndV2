@@ -12,7 +12,7 @@
 
 // export default App;
 
-import React from 'react';
+import React, {useState} from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -69,8 +69,33 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+//export default class App extends Component
 export default function App() {
   const classes = useStyles();
+
+  const [selectValue, setSelectedValue] = useState('DONOR');
+
+
+const handleSelect=async e=>{
+
+  setSelectedValue( e.target.value);
+
+  // alert(selectValue)
+  switch(selectValue){
+    
+    case "VENDOR" : window.location.href = 'http://localhost:3001/login'; break;
+    case "HOSPITAL" : window.location.href = 'http://localhost:3001/login'; break;
+    case "ADMIN" : window.location.href = 'http://localhost:3001/login'; break;
+    default : break;
+
+  }
+
+}
+
+
+
+
 
   return (
     <Grid container component="main" className={classes.root}>
@@ -91,6 +116,8 @@ export default function App() {
                     <Select
                     labelId="demo-simple-select-label2"
                     id="demo-simple-select2"
+                    onChange={handleSelect}
+                    value={selectValue} 
                     // value={age}
                     // onChange={handleChange}
                     >

@@ -57,7 +57,7 @@ class App extends React.Component {
                                     <NavItem onClick={() => this.props.history.push(config.BASE_ROUTE+"donation-requirements")}>
                                         <p className={this.props.current === 2 ? "nvbr-h-navlink-active" : "nvbr-h-navlink"}> Donation Requirements </p>
                                     </NavItem>
-                                    <NavItem onClick={() => this.props.history.push(config.BASE_ROUTE+"sign-up")}>
+                                    <NavItem onClick={() => this.props.history.push(config.BASE_ROUTE+"sign-up-test")}>
                                         <p className={this.props.current === 3 ? "nvbr-h-navlink-active" : "nvbr-h-navlink"}> Sign-Up </p>
                                     </NavItem>
                                     <NavItem onClick={() => this.props.history.push(config.BASE_ROUTE+"login")}>
